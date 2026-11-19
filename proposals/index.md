@@ -1,0 +1,10 @@
+# Research proposals
+
+- [Build a self-improving agent loop](agent-self-improve-loop.md) — turn repeated corrections into reusable skills and review mistakes so an agent improves reliably.
+- [Design a documentation Q&A agent](design-doc-qna-agent.md) — interview-prep proposal from the first cycle: turn an agentic-system-design question into an answer outline, worked example, and evaluation rubric.
+- [Turn an agentic-system interview question into an answer outline](interview-prep.md) — interview-prep (new cycle): turn an agentic-system-design question into an answer outline, worked example, a 15–30 min exercise, and an evaluation rubric; two practitioner sources cited, not verified. Status `proposed`; not published to bundle.
+- [Compose a minimal, reliable agentic control flow](compose-agentic-control-flow.md) — choose and compose only the canonical agentic control-flow patterns a task demands, with a worked sketch, a 15–30 min exercise, and an evaluation rubric.
+- [Tidy first, then change the behavior](tidy-first-behavior.md) — software-engineering-practice: apply small structural edits (tidyings) before behavior changes, with a worked example, a 15–30 min exercise, and an evaluation rubric.
+- [Evaluate agent reliability before shipping](evaluate-agent-reliability.md) — evaluation-and-reliability: split agent metrics into outcome/path/decision/reliability scopes, test stability across repeated runs, and convert production failures into regression cases before shipping.
+- [Build a production retrieval pipeline for knowledge access](knowledge-rag-data.md) — knowledge/RAG/data: sequence and measure retrieval upgrades (hybrid search, reranking, chunking, query transformation) behind a regression evaluation set, so each addition is validated against a representative question set.
+- [Run runtime budget guardrails for agentic work](security-operations-cost.md) — security/cost/operations: put per-run attribution, pre-call budget checks and deterministic circuit breakers into the agent execution path, with a 15–30 min exercise and rubric; three practitioner sources, not verified.
